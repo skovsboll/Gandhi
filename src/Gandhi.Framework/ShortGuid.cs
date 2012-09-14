@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpVitamins
+namespace Gandhi.Framework
 {
 	/// <summary>
 	/// Represents a globally unique identifier (GUID) with a

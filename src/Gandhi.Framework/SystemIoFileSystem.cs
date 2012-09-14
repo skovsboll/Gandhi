@@ -1,6 +1,7 @@
 using System.IO;
+using Gandhi.Framework.Transactions;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework
 {
 	public class SystemIoFileSystem : IFileSystem
 	{

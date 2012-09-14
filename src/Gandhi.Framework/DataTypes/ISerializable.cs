@@ -1,4 +1,4 @@
-namespace Ghandi.Areas.gandi.Love.DataTypes
+namespace Gandhi.Framework.DataTypes
 {
 	public interface ISerializable<T>
 	{

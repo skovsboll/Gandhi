@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using Ghandi.Love;
+using Gandhi.Framework.Transactions;
 using Xunit;
 
-namespace Ghandi.Tests
+namespace Gandhi.Framework.Tests
 {
 	public class PoolTests
 	{

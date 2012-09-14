@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework
 {
 	public static class UrlSanitizer
 	{

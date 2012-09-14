@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Ghandi.Love;
+﻿using Gandhi.Framework.Transactions;
 using Xunit;
 
-namespace Ghancy.Tests
+namespace Gandhi.Framework.Tests
 {
 	public class FileTransactionTests
 	{

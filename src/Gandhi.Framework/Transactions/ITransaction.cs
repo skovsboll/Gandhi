@@ -1,6 +1,6 @@
 using System;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework.Transactions
 {
 	public interface ITransaction : IDisposable
 	{

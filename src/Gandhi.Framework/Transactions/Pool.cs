@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Concurrent;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework.Transactions
 {
 	public class Pool<T>
 	{

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.Serialization;
-
-namespace Ghandi.Areas.gandi.Love.DataTypes
+﻿namespace Gandhi.Framework.DataTypes
 {
 	public class Markdown : ISerializable<string>
 	{

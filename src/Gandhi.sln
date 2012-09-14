@@ -6,7 +6,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{149CC4
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gandhi.Framework", "Gandhi.Framework\Gandhi.Framework.csproj", "{CDD4BBB1-E604-4628-BF19-220BE487080B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gandhi.Sample", "Gandhi.Sample\Gandhi.Sample.csproj", "{B4AC02C7-5C2C-41E7-8AA8-919EBE533B60}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDD4BBB1-E604-4628-BF19-220BE487080B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD4BBB1-E604-4628-BF19-220BE487080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD4BBB1-E604-4628-BF19-220BE487080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD4BBB1-E604-4628-BF19-220BE487080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AC02C7-5C2C-41E7-8AA8-919EBE533B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AC02C7-5C2C-41E7-8AA8-919EBE533B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AC02C7-5C2C-41E7-8AA8-919EBE533B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AC02C7-5C2C-41E7-8AA8-919EBE533B60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

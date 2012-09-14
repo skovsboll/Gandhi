@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework
 {
 	public interface INode
 	{

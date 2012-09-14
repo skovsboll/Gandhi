@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework
 {
 	public class NodeBase : INode
 	{

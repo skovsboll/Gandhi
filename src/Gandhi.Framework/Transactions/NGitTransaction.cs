@@ -1,10 +1,8 @@
-﻿using System.Linq;
-using NGit;
+﻿using NGit;
 using NGit.Api;
 using NGit.Merge;
-using NGit.Storage.File;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework.Transactions
 {
 	public class NGitTransaction : ITransaction
 	{

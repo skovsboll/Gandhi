@@ -4,9 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
-using Ghandi.Areas.gandi.Love.DataTypes;
+using Gandhi.Framework.DataTypes;
+using Gandhi.Framework.Transactions;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework
 {
 	public class NodeToFolderSerializer : INodeSerializer
 	{

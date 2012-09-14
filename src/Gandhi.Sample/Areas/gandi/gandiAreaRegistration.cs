@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Ghandi.Areas.gandi
+namespace Gandhi.Sample.Areas.gandi
 {
 	public class gandiAreaRegistration : AreaRegistration
 	{

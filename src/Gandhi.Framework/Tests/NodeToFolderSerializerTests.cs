@@ -2,12 +2,11 @@
 using System.IO;
 using System.Linq;
 using System.Xml.Linq;
-using Ghandi.Areas.gandi.Love.DataTypes;
-using Ghandi.Love;
+using Gandhi.Framework.DataTypes;
 using Xunit;
 using FluentAssertions;
 
-namespace Ghandi.Tests
+namespace Gandhi.Framework.Tests
 {
 	public class NodeToFolderSerializerTests
 	{
@@ -89,15 +88,5 @@ namespace Ghandi.Tests
 			newNode.BirthDay.Should().Be(DateTime.Today);
 		}
 
-	}
-
-	public class TestNodeWithHtml : NodeToFolderSerializerTests.TestNode
-	{
-		public XDocument Content { get; set; }
-	}
-
-	public class TestNodeWithMarkdown : NodeToFolderSerializerTests.TestNode
-	{
-		public Markdown Content { get; set; }
 	}
 }

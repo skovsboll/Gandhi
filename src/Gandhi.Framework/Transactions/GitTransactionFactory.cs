@@ -1,9 +1,8 @@
 using System;
 using System.IO;
-using CSharpVitamins;
 using NGit.Api;
 
-namespace Ghandi.Love
+namespace Gandhi.Framework.Transactions
 {
 	public class GitTransactionFactory
 	{
